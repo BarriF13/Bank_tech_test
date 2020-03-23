@@ -25,4 +25,4 @@ I can **withraw** from my account.
 
 As a **person**,
 So that I can use an **account**,
-I can **print** bankstatement.
+I can **print** my bank statement.
