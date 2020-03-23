@@ -1,4 +1,8 @@
 class Account
+  def initilaize (debite)
+    @debit = debit
+  end
 
-  def 
+  def deposite
+  end
 end
