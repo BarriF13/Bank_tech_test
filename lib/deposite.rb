@@ -1,14 +1,9 @@
 class Deposite
 
-  attr_reader :credit
+  attr_reader :credit, :time
 
   def initialize(credit)
     @credit = credit
-  end
-
-  def add
-    credit.map do |type, amount| 
-      "%s £%.2f" % [type, amount]
-    end.join(", ")
+    @time = Time.now
   end
 end
