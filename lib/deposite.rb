@@ -6,4 +6,8 @@ class Deposite
     @credit = credit
     @time = Time.now
   end
+
+  # def add
+  #   # add credit and time to array of transaction
+  # end
 end

@@ -5,4 +5,8 @@ attr_reader :debit, :time
     @debit = debit
     @time = Time.now
   end
+
+  # def draw
+  #   # record draw  and time to array of transaction
+  # end
 end
