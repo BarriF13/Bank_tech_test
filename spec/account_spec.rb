@@ -1,15 +1,19 @@
 require './lib/account'
 
-describe Account do
-  subject(:account) { described_class.new(deposite: deposite) }
-  # subject(:account) { described_class.new(withdra: withdraw) }
+# describe Account do
 
-  let(:deposite) { double(:deposite, add: added_deposite) }
-  let(:added_deposite) {"£1000"}
+#   it "create an account " do
+#     account = Account.new
+#     expect(account).to be_kind_of(Account)
+#   end
 
+  # it " deposite " do
+  #   account = Account.new
+  #   expect(account).to be_kind_of(Account)
+  # end
 
-  it "shows the transaction with date"do
-  expect(account.add_deposite).to eq (added_deposite)
-  end 
-  
-end
+  # it "responds positively to the deposite message" do
+  #   account = Account.new
+  #   expect(account.deposite).to eq("your deposite has gone through")
+  # end
+# end
