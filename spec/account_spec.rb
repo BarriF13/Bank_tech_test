@@ -7,7 +7,14 @@ describe Account do
   end
 
   it "User can deposite 1000" do
-    expect(subject.deposite(1000)).to eq 1000
+    subject.deposite(1000)
+    expect(subject.balance).to eq 1000
   end
+
+  it "User can withdraw 500" do
+     subject.deposite(1000)
+     subject.withdraw(500)
+     expect(subject.balance).to eq 500
+   end
 
 end
