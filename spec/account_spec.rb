@@ -1,19 +1,10 @@
 require './lib/account'
 
-# describe Account do
+describe Account do
+  let(:account) {Account.new}
+  it "creates an account with zero balance"do
+  
+  expect(subject.balance).to eq 0
+  end
 
-#   it "create an account " do
-#     account = Account.new
-#     expect(account).to be_kind_of(Account)
-#   end
-
-  # it " deposite " do
-  #   account = Account.new
-  #   expect(account).to be_kind_of(Account)
-  # end
-
-  # it "responds positively to the deposite message" do
-  #   account = Account.new
-  #   expect(account.deposite).to eq("your deposite has gone through")
-  # end
-# end
+end
